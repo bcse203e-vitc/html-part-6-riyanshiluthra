@@ -17,8 +17,6 @@ function findGCD(a, b) {
 function findLCM(a, b) {
     return Math.abs(a * b) / findGCD(a, b);
 }
-
-// Example usage:
 rl.question('Enter the first number: ', (num1) => {
     rl.question('Enter the second number: ', (num2) => {
         let lcm = findLCM(parseInt(num1), parseInt(num2));
